@@ -14,7 +14,8 @@
     "test:e2e:open": "cypress open",
     "test:api": "jest --testMatch='**/*.api.test.ts'",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "test:playwright": "npx playwright test"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
+    "@playwright/test": "^1.53.1",
     "@testing-library/cypress": "^10.0.3",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.4.2",
