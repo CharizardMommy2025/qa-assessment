@@ -1,3 +1,5 @@
+// Renee Arthur Synmax qa assessment
+
 import { test, expect } from '@playwright/test';
 
 test('user can add a new todo item', async ({ page }) => {
